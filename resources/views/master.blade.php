@@ -33,9 +33,9 @@
 
   @include('inc.menu')
 
-  
+
 @yield('content')
-  
+
 
   <!-- Footer -->
   <footer class="footer text-center">
@@ -43,8 +43,7 @@
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">Dhanmondi Dhaka
-            <br>Bangladesh</p>
+
         </div>
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
@@ -78,8 +77,8 @@
         </div>
         <div class="col-md-4">
           <h4 class="text-uppercase mb-4">About Myself</h4>
-          <p class="lead mb-0">Abdul Mabud</p>
-          <p>abdulmabudcse@gmail.com</p>
+          <p class="lead mb-0"></p>
+          <p></p>
         </div>
       </div>
     </div>
@@ -87,7 +86,7 @@
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Abdul Mabuud</small>
+      <small>Copyright &copy; </small>
     </div>
   </div>
 
@@ -98,7 +97,7 @@
     </a>
   </div>
 
-  
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="{{ asset('custom/vendors/jquery/jquery.min.js') }}"></script>
